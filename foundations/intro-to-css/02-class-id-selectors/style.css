@@ -1,0 +1,21 @@
+/* playing around with classes baby */
+
+.first_class,.cooler_class{
+background-color:#FFC0CB;
+font-family:Verdana,"DejaVu Sans",sans-serif;
+}
+
+.cooler_class{
+    font-size:36px;
+}
+
+#first_id{
+    color:rgb(0 0 255);
+    font-size:36px;
+}
+
+#another_id{
+    background-color:#80FF00;
+    font-weight:bold;
+    font-size:24px;
+}
