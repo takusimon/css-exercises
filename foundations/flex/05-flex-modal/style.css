@@ -21,7 +21,9 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display:flex;
-  flex-direction: row;
+  gap:16px;
+  padding: 16px;
+  
 }
 
 .icon {
@@ -38,8 +40,26 @@ body {
 }
 .icon-container {
   display: flex;
-  align-self: stretch;
+  width:auto;
+  flex-shrink:0;
 }
+.other-content{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  align-items:stretch;
+  gap:4px;
+}
+.header-close {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.header {
+  font-weight: bold;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -54,7 +74,9 @@ body {
   border: 1px solid #eee;
   padding: 0;
 }
-
+.text {
+  text-align:left;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -76,6 +98,5 @@ button.cancel {
 .button-container {
   display: flex;
   gap:8px;
-  margin-left: 8px;
   
 }
