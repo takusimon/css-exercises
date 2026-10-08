@@ -20,8 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:1em;
+  display:flex;
+  gap:0.5em;
+  align-items: baseline;
+}
+.sec-2 {
+  flex:1 auto;
+  display:flex;
+  flex-flow: column wrap;
+  gap:.5em;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
